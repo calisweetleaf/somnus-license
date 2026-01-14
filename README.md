@@ -6,7 +6,9 @@ This repository hosts the **Sovereign Anti-Exploitation Software License (SAESL)
 
 ## 🔒 The License
 
-The [LICENSE](./LICENSE) file contains **Version 4.0 (Leviathan Enforcement Edition)** of the Sovereign Anti-Exploitation Software License. Key features include:
+The [LICENSE](./LICENSE) file contains **Version 4.0 (Leviathan Enforcement Edition)** of the Sovereign Anti-Exploitation Software License. Note: this License contains explicit provenance and use restrictions — please read the License for details. 🦈
+
+Key features include:
 
 - **Anti-Capture Framework** — Explicit prohibitions on use by specified large tech companies and high-net-worth individuals
 - **Commercial Use Restrictions** — Requires paid licensing for any commercial deployment
@@ -43,10 +45,26 @@ A **PowerShell-based cryptographic integrity and provenance system** for file ve
 - SBOM (Software Bill of Materials) generation
 - Metadata extraction for various file types (PDF, images, Office docs, archives)
 - SQLite-backed historical tracking
-- Experimental frequency-based signatures
+- Experimental frequency-based signatures for advanced research
 - `.gitignore` and `.hashignore` support
 - Parallel verification for large projects
 - HTML/JSON report generation
+- GPG signing and timestamp proofs
+
+**📚 Documentation:** See the [docs](./docs/) folder for comprehensive guides:
+- [Complete Documentation](./docs/hash-index-documentation.md) - Full feature overview
+- [Command Reference](./docs/command-reference.md) - All command-line options
+- [Configuration Guide](./docs/configuration-guide.md) - Setup and configuration
+- [Experimental Methods](./docs/experimental-methods-reference.md) - Advanced signal processing
+
+**Quick Start:**
+```powershell
+# Basic integrity check
+.\hash-index.ps1 -Path ".\my-project"
+
+# Full featured analysis
+.\hash-index.ps1 -Path ".\my-project" -All
+```
 
 **Quick Start:**
 
