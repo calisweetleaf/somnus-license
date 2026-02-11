@@ -1,0 +1,9 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below according to the terms in the license governing this release."
+authors:
+- family-names: Rowell
+  given-names: Christian Trey Levi 
+orcid: "https://orcid.org/0009-0008-6550-6316"
+title: "somnus-license"
+version: v1.0.0
+date-released: 2026-01-08
