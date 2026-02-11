@@ -1,9 +1,25 @@
-cff-version: 1.1.0
+cff-version: 1.2.0
 message: "If you use this software, please cite it as below according to the terms in the license governing this release."
 authors:
-- family-names: Rowell
-  given-names: Christian Trey Levi 
-orcid: "https://orcid.org/0009-0008-6550-6316"
-title: "somnus-license"
-version: v1.0.0
-date-released: 2026-01-08
+  - family-names: Rowell
+    given-names: Christian Trey Levi
+    orcid: "https://orcid.org/0009-0008-6550-6316"
+title: "The Somnus Sovereign Anti-Exploitation Software License (Leviathan Enforcement Edition)"
+version: 4.0.0
+date-released: 2026-02-11
+url: "https://github.com/calisweetleaf/somnus-license"
+keywords:
+  - "anti-exploitation"
+  - "sovereign-license"
+  - "ai-ethics"
+  - "digital-sovereignty"
+  - "legal-tech"
+license: "Somnus-Sovereign-4.0"
+references:
+  - type: report
+    authors:
+      - family-names: Rowell
+        given-names: Christian Trey Levi
+    title: "The Sovereign Anti-Exploitation Codex: A Technical & Legal Reference"
+    year: 2026
+    url: "https://github.com/calisweetleaf/somnus-license/tree/main/license-docs/output/Sovereign_License_Reference.md"

@@ -1,0 +1,38 @@
+graph TD
+    subgraph "Violation Triggers"
+        V1[Unauthorized Commercial Use]
+        V2[Service Deployment]
+        V3[AI Training]
+        V4[Article X Violation]
+    end
+
+    subgraph "Base Penalties"
+        V1 --> P1["$100,000 / Incident"]
+        V2 --> P2["$500,000 / Deployment"]
+        V3 --> P3["$1,000,000 / Model"]
+        V4 --> P4["$5,000,000 / Quarter"]
+    end
+
+    subgraph "Aggravating Factors"
+        P1 --> A1{Willful?}
+        P2 --> A1
+        P3 --> A1
+        P4 --> A2{Always Strict Liability}
+    end
+
+    subgraph "Total Liability"
+        A1 -- Yes --> L1[Enhanced Statutory Damages (+$150k/work)]
+        A1 -- No --> L2[Base Liquidated Damages]
+        A2 --> L3[Article X 'Nuclear' Damages]
+    end
+
+    subgraph "Remedies"
+        L1 --> R1[Disgorgement of ALL Profits]
+        L2 --> R1
+        L3 --> R2[Asset Seizure & Trust Clawback]
+    end
+
+    style V4 fill:#ff0000,stroke:#333,stroke-width:4px
+    style P4 fill:#ff0000,stroke:#333,stroke-width:4px
+    style L3 fill:#880000,stroke:#333,stroke-width:4px,color:#fff
+    style R2 fill:#000000,stroke:#ff0000,stroke-width:2px,color:#fff

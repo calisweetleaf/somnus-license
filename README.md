@@ -1,148 +1,139 @@
-# Somnus License & Dev Tools
+# Somnus Sovereign License & Defense Tools
 
-[![License](https://img.shields.io/badge/License-Somnus%20Sovereign-purple.svg)](./LICENSE)
+[![License](https://img.shields.io/badge/License-Sovereign_Leviathan_v4.0-7000FF.svg)](./LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active_Enforcement-FF0000.svg)](./LICENSE)
+[![Tool-Suite](https://img.shields.io/badge/Tools-Defense_Grade-007ACC.svg)](./hash-index.ps1)
 
-This repository hosts the **Sovereign Anti-Exploitation Software License (SAESL)** — a custom, legally-binding proprietary license designed to protect independent developers from exploitation by large corporations and high-net-worth individuals while permitting academic research and personal education.
+> **"Open Functionality for the Individual. A Closed Fortress for the Empire."**
 
-## 🔒 The License
+This repository hosts the **Sovereign Anti-Exploitation Software License (SAESL)**—a weaponized legal instrument designed to protect independent developers from extraction by surveillance capitalists and corporate monopolies—and the **Defense-Grade Tool Suite** required to maintain cryptographic integrity in a hostile digital environment.
 
-The [LICENSE](./LICENSE) file contains **Version 4.0 (Leviathan Enforcement Edition)** of the Sovereign Anti-Exploitation Software License. Note: this License contains explicit provenance and use restrictions — please read the License for details. 🦈
+---
 
-Key features include:
+## The Sovereign License (v4.0 "Leviathan")
 
-- **Anti-Capture Framework** — Explicit prohibitions on use by specified large tech companies and high-net-worth individuals
-- **Commercial Use Restrictions** — Requires paid licensing for any commercial deployment
-- **Service Deployment Ban** — Prohibits SaaS/API deployments without explicit authorization
-- **AI Training Prohibition** — Prevents use for training AI models without consent
-- **Tiered Licensing** — Automatic licenses for personal non-commercial use and academic research
-- **Strong Enforcement** — Liquidated damages, statutory damages, and injunctive relief provisions
+**[READ THE FULL CODEX HERE](./license-docs/output/Sovereign_License_Reference.md)**
+
+The `LICENSE` file in this repository is **Version 4.0 (Leviathan Enforcement Edition)**. It is not an MIT or Apache license. It is a **Unilateral Contract of Adherence** that fundamentally alters the "Open Source" deal.
+
+### The Core Doctrine
+
+1. **Anti-Capture (Art. II)**: Explicit, identity-based exclusions for the "ClosedAI Cartel" (OpenAI, Anthropic, Google, Meta, Microsoft, Apple, NVIDIA) and their VC backers (a16z, Sequoia, YC).
+2. **Strict Liability (Art. X)**: No "innocent infringement." If money flows to a Prohibited Party, the license is breached.
+3. **Means-Tested Access**:
+    * **Tier 1 (Sovereign Individual)**: Free for individuals making <$50k/year (CPI-adjusted).
+    * **Tier 2 (Academic)**: Free for non-profit research (must publish results).
+    * **Tier 3 (Commercial)**: **Negotiated Paid License** for ANY revenue generation or "Service Deployment."
+4. **The "SaaS Ban"**: You cannot wrap this software in an API and sell it.
+5. **The "AI Ban"**: You cannot use this software to train, benchmark, or generate data for third-party AI models.
+
+### Documentation Hierarchy
+
+* **[The Sovereign Code](./license-docs/output/Sovereign_License_Reference.md)**: The definitive "nitty gritty" explanation of every clause.
+* **[Citation File](./CITATION.cff)**: Professional citation metadata for academic use.
+* **[Visual Logic](./license-docs/src/visuals/)**: Mermaid flowcharts demonstrating liability flows.
+
+---
+
+## Tool 1: The Hash Index (`hash-index.ps1`)
+
+**Status: Production (v2.0) | Size: 62KB | Integrity: Critical**
+
+The `hash-index.ps1` is not just a hashing script; it is a **Cryptographic Provenance Engine**. It creates a verifiable, immutable history of your project's state, preventing supply chain attacks, silent corruption, and modification.
+
+### Capabilities (Usage Guide)
+
+#### 1. Basic Operations
+
+Run a standard integrity check using SHA-256 (default).
+
+```powershell
+.\hash-index.ps1 -Path "."
+```
+
+#### 2. "Turbo Mode" (Defense-Grade Verification)
+
+Engage **ALL** integrity sensors. This runs every hash algorithm (SHA256, SHA512, BLAKE2b), extracts metadata, generates an SBOM, and creates an HTML report.
+
+```powershell
+.\hash-index.ps1 -All -DeepArchives -Verbose
+```
+
+#### 3. Signal Intelligence (Experimental)
+
+For research datasets or media archives, use signal processing to detect "drift" even if hashes change.
+
+```powershell
+# Compute Entropy, Zero-Crossing Rates, and Spectral Centroids
+.\hash-index.ps1 -Path "./data" -FrequencySignature -EntropyAnalysis -PerceptualHash
+```
+
+#### 4. Supply Chain Defense (SBOM)
+
+Generate a **Software Bill of Materials (SPDX 2.3)** to document exactly what is in your deployment.
+
+```powershell
+.\hash-index.ps1 -GenerateSBOM -ExportJSON
+# Output: .sbom/sbom.spdx.json
+```
+
+### Technical Parameters
+
+| Switch | Function | Impact |
+| :--- | :--- | :--- |
+| `-All` | **Protocol Override**. Runs ALL algorithms and features. | Maximum visibility, slower speed. |
+| `-Algorithm` | Select `SHA256` (Default), `SHA512`, `BLAKE2B`, etc. | Targeting specific compliance needs. |
+| `-Verify` | Checks current files against the existing index. | Audit mode. |
+| `-UseGitIgnore` | Respects `.gitignore` and `.hashignore`. | Prevents hashing trash/artifacts. |
+| `-EnableHistory` | Activates SQLite DB to track file evolution. | Enables time-travel analysis. |
+| `-SignWithGPG` | Signs the index with your local GPG key. | **Non-Repudiation**. |
+| `-TimestampProof` | Uses OTS to anchor hash in Bitcoin blockchain. | **Absolute Timeline Proof**. |
+
+> **Dependency Note**: Advanced features (BLAKE2b, SQLite History) require a local Python environment. The script automatically detects the active venv.
+
+---
+
+## Tool 2: Python Production Doctor (`python_production_doctor.py`)
+
+**Status: Active | Focus: Code Health**
+
+A static analysis tool that acts as a "Field Medic" for your codebase. It scans for "lazy" coding practices that lead to technical debt.
+
+### Core Scans
+
+* **Stub Detection**: Finds `pass`, `...`, and `NotImplementedError`.
+* **Documentation Gaps**: Flags missing docstrings in complex functions.
+* **Type Hinting**: Enforces modern Python typing standards.
+* **Todo/Fixme**: Aggregates all technical debt markers.
 
 ### Usage
 
-To apply this license to your own projects:
-
-1. Copy the [LICENSE](./LICENSE) file to your project root
-2. Update the copyright year and verify the integrity hash
-3. Link back to this repository for reference: `https://github.com/calisweetleaf/somnus-license`
-
-**Author:** Christian Trey Levi Rowell  
-**Contact:** <treyrowell1826@gmail.com>  
-**GitHub:** [@calisweetleaf](https://github.com/calisweetleaf)
-
----
-
-## 🛠️ Included Development Tools
-
-This repository also includes two development utilities I use regularly across my projects:
-
-### 1. Hash Index (`hash-index.ps1`)
-
-A **PowerShell-based cryptographic integrity and provenance system** for file verification.
-
-**Features:**
-
-- Multi-algorithm hashing (SHA256, SHA1, SHA384, SHA512, BLAKE2B)
-- SBOM (Software Bill of Materials) generation
-- Metadata extraction for various file types (PDF, images, Office docs, archives)
-- SQLite-backed historical tracking
-- Experimental frequency-based signatures for advanced research
-- `.gitignore` and `.hashignore` support
-- Parallel verification for large projects
-- HTML/JSON report generation
-- GPG signing and timestamp proofs
-
-**📚 Documentation:** See the [docs](./docs/) folder for comprehensive guides:
-- [Complete Documentation](./docs/hash-index-documentation.md) - Full feature overview
-- [Command Reference](./docs/command-reference.md) - All command-line options
-- [Configuration Guide](./docs/configuration-guide.md) - Setup and configuration
-- [Experimental Methods](./docs/experimental-methods-reference.md) - Advanced signal processing
-
-**Quick Start:**
-```powershell
-# Basic integrity check
-.\hash-index.ps1 -Path ".\my-project"
-
-# Full featured analysis
-.\hash-index.ps1 -Path ".\my-project" -All
-```
-
-**Quick Start:**
-
-```powershell
-# Basic hash generation
-.\hash-index.ps1 -Path ".\my-project"
-
-# Run all algorithms with gitignore support
-.\hash-index.ps1 -Path ".\my-project" -All -UseGitIgnore
-
-# Generate SBOM and reports
-.\hash-index.ps1 -Path ".\my-project" -GenerateSBOM -GenerateReport
-```
-
----
-
-### 2. Python Production Doctor (`python_production_doctor.py`)
-
-A **comprehensive Python code health assessment tool** that scans codebases to identify production readiness issues and technical debt.
-
-**Detects:**
-
-- Syntax errors
-- TODO/FIXME/HACK markers
-- Stub implementations (pass, ellipsis, NotImplementedError)
-- Placeholder return values
-- Incomplete method implementations
-- Missing docstrings
-- Suspiciously short functions
-- Unimplemented abstract methods
-- Type hint gaps
-- Test coverage gaps
-
-**Quick Start:**
-
 ```bash
-# Scan a project
-python python_production_doctor.py /path/to/your/project
+# Full health scan
+python python_production_doctor.py ./src
 
-# With custom config
-python python_production_doctor.py /path/to/project -c my_config.json
-
-# JSON output for CI/CD
-python python_production_doctor.py /path/to/project -f json -o report.json
-```
-
-**Configuration:**
-Create a JSON config file to customize analysis rules:
-
-```json
-{
-  "min_function_lines": 5,
-  "min_docstring_length": 15,
-  "test_coverage_threshold": 0.7,
-  "ignore_patterns": ["__pycache__/*", ".venv/*"],
-  "severity_levels": {
-    "syntax_errors": "critical",
-    "stubs": "serious",
-    "todos": "minor"
-  }
-}
+# Strict mode for CI/CD (fail on errors)
+python python_production_doctor.py ./src --strict --json-report report.json
 ```
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 somnus-license/
-├── LICENSE                      # Sovereign Anti-Exploitation Software License v4.0
-├── README.md                    # This file
-├── hash-index.ps1               # PowerShell hash integrity tool
-└── python_production_doctor.py  # Python code health scanner
+├── LICENSE                      # The Sovereign License (Legal Instrument)
+├── license-docs/                # DETAILED DOCUMENTATION (The Codex)
+│   ├── output/                  # Final Reference Docs
+│   └── src/                     # Source sections & diagrams
+├── hash-index.ps1               # Cryptographic Provenance Tool (62KB)
+├── python_production_doctor.py  # Code Health Scanner
+└── README.md                    # This file
 ```
 
 ---
 
-## 📜 License Notice
+## Legal Notice
 
 The **LICENSE** file in this repository is the Sovereign Anti-Exploitation Software License itself. The development tools (`hash-index.ps1` and `python_production_doctor.py`) are also covered under this license.
 

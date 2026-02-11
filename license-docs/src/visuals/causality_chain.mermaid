@@ -1,0 +1,29 @@
+graph LR
+    subgraph "Software Use"
+        S[Software Execution] --> |Generates| O[Outputs/Artifacts]
+        S --> |Derives| I[Insights/Knowledge]
+    end
+
+    subgraph "Direct Benefit"
+        O --> |Monetization| R[Revenue]
+        I --> |Strategy| V[Valuation Increase]
+        S --> |Efficiency| C[Cost Savings]
+    end
+
+    subgraph "Indirect Flow (The Poison)"
+        R --> |Dividends/Salary| E[Entity]
+        V --> |Equity Appreciation| E
+        C --> |Margin Expansion| E
+    end
+
+    subgraph "Prohibited Recipient (Article X)"
+        E --> |Investment Returns| F[Fund/VC]
+        F --> |Carried Interest| X[Excluded Individual]
+        E --> |Advisory Fees| X
+        E --> |Spousal Income| H[Household Member]
+        H --> |Supported Living| X
+    end
+
+    style X fill:#ff0000,stroke:#333,stroke-width:4px
+    style O fill:#ff9900,stroke:#333,stroke-width:2px
+    style S fill:#00cc00,stroke:#333,stroke-width:2px

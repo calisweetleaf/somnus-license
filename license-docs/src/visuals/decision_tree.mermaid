@@ -1,0 +1,29 @@
+Graph TD
+    A[Start: User Interaction] --> B{Is User a Prohibited Party?}
+    B -- Yes --> C[STOP: ACCESS DENIED]
+    C --> D[Strict Liability Enforced]
+    B -- No --> E{Is User an Excluded Individual?}
+    E -- Yes --> C
+    E -- No --> F{Check Use Case}
+
+    F --> G{Personal Use?}
+    G -- Yes --> H{Net Worth < $100k & Income < $50k?}
+    H -- Yes --> I[Tier 1: Personal Non-Commercial License]
+    H -- No --> J[Tier 3: Commercial License Required]
+
+    F --> K{Academic Use?}
+    K -- Yes --> L{Peer-Reviewed & No Commercial Benefit?}
+    L -- Yes --> M[Tier 2: Academic & Research License]
+    L -- No --> J
+
+    F --> N{Commercial Use?}
+    N -- Yes --> J
+    F --> O{Service Deployment?}
+    O -- Yes --> J
+
+    I --> P[Authorized: Learning/Experimentation]
+    M --> Q[Authorized: Research/Teaching]
+    J --> R{License Obtained?}
+    R -- Yes --> S[Authorized: Commercial Operations]
+    R -- No --> T[VIOLATION: Automatic Termination]
+    T --> U[Statutory Damages & Disgorgement]
