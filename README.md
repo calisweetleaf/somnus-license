@@ -4,6 +4,7 @@
 [![Status](https://img.shields.io/badge/Status-Active_Enforcement-FF0000.svg)](./LICENSE)
 [![Tool-Suite](https://img.shields.io/badge/Tools-Defense_Grade-007ACC.svg)](./hash-index.ps1)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18617098.svg)](https://doi.org/10.5281/zenodo.18617098)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18617098.svg)](https://doi.org/10.5281/zenodo.18617098)
 
 > **"Open Functionality for the Individual. A Closed Fortress for the Algorithmic Leviathans."**
 
@@ -13,6 +14,7 @@ This repository hosts the **Sovereign Anti-Exploitation Software License (SAESL)
 
 ## The Sovereign License (v4.0 "Leviathan")
 
+**[Read the breakdown and explanation here.](./license-docs/output/Sovereign_License_Reference.md)**
 **[Read the breakdown and explanation here.](./license-docs/output/Sovereign_License_Reference.md)**
 
 The `LICENSE` file in this repository is **Version 4.0 (Leviathan Enforcement Edition)**. It is not an MIT or Apache license. It is a **Unilateral Contract of Adherence** that fundamentally alters the "Open Source" deal.
@@ -129,7 +131,18 @@ somnus-license/
 │   └── src/                     # Source sections & diagrams
 ├── hash-index.ps1               # Cryptographic Provenance Tool (62KB)
 ├── python_production_doctor.py  # Code Health Scanner 
+├── python_production_doctor.py  # Code Health Scanner 
 └── README.md                    # This file
+```
+
+---
+
+---
+
+## Citation
+
+```mla
+Rowell, C. T. L. Somnus-license. v2.0.0, Zenodo, 12 Feb. 2026, https://doi.org/10.5281/zenodo.18615826.
 ```
 
 ---
