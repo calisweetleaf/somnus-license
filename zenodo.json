@@ -1,0 +1,219 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2026-02-12T00:45:15.207166+00:00",
+  "custom_fields": {
+    "code:codeRepository": "https://github.com/calisweetleaf/somnus-license"
+  },
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 1,
+    "enabled": true,
+    "entries": {
+      "calisweetleaf/somnus-license-v2.0.0.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:41451ced573eed5a119630846d829b35",
+        "ext": "zip",
+        "id": "712fec5b-4662-4106-aacb-8b171e3e8547",
+        "key": "calisweetleaf/somnus-license-v2.0.0.zip",
+        "links": {
+          "content": "https://zenodo.org/api/records/18615826/files/calisweetleaf/somnus-license-v2.0.0.zip/content",
+          "self": "https://zenodo.org/api/records/18615826/files/calisweetleaf/somnus-license-v2.0.0.zip"
+        },
+        "metadata": null,
+        "mimetype": "application/zip",
+        "size": 84635,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 84635
+  },
+  "id": "18615826",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/18615826/access",
+    "access_grants": "https://zenodo.org/api/records/18615826/access/grants",
+    "access_links": "https://zenodo.org/api/records/18615826/access/links",
+    "access_request": "https://zenodo.org/api/records/18615826/access/request",
+    "access_users": "https://zenodo.org/api/records/18615826/access/users",
+    "archive": "https://zenodo.org/api/records/18615826/files-archive",
+    "archive_media": "https://zenodo.org/api/records/18615826/media-files-archive",
+    "communities": "https://zenodo.org/api/records/18615826/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/18615826/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.18615826",
+    "draft": "https://zenodo.org/api/records/18615826/draft",
+    "file_modification": "https://zenodo.org/api/records/18615826/file-modification",
+    "files": "https://zenodo.org/api/records/18615826/files",
+    "latest": "https://zenodo.org/api/records/18615826/versions/latest",
+    "latest_html": "https://zenodo.org/records/18615826/latest",
+    "media_files": "https://zenodo.org/api/records/18615826/media-files",
+    "parent": "https://zenodo.org/api/records/18615825",
+    "parent_doi": "https://doi.org/10.5281/zenodo.18615825",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18615825",
+    "parent_html": "https://zenodo.org/records/18615825",
+    "preview_html": "https://zenodo.org/records/18615826?preview=1",
+    "request_deletion": "https://zenodo.org/api/records/18615826/request-deletion",
+    "requests": "https://zenodo.org/api/records/18615826/requests",
+    "reserve_doi": "https://zenodo.org/api/records/18615826/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/18615826",
+    "self_doi": "https://doi.org/10.5281/zenodo.18615826",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18615826",
+    "self_html": "https://zenodo.org/records/18615826",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18615826/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18615826/sequence/default",
+    "versions": "https://zenodo.org/api/records/18615826/versions"
+  },
+  "media_files": {
+    "count": 0,
+    "enabled": false,
+    "entries": {},
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "additional_descriptions": [
+      {
+        "description": "If you use this software, please cite it as below according to the terms in the license governing this release.",
+        "type": {
+          "id": "notes",
+          "title": {
+            "de": "Anmerkungen",
+            "en": "Notes"
+          }
+        }
+      }
+    ],
+    "creators": [
+      {
+        "person_or_org": {
+          "family_name": "Rowell",
+          "given_name": "Christian Trey Levi",
+          "name": "Rowell, Christian Trey Levi",
+          "type": "personal"
+        }
+      }
+    ],
+    "description": "<h1>Release v2.0.0: The Leviathan Protocol &amp; Defense-Grade Provenance</h1>\n<p>This v2.0.0 release establishes the Sovereign Anti-Exploitation License v4.0 (Leviathan Enforcement Edition) and expands documentation.</p>\n<p><strong>Tool Disclosures:</strong></p>\n<ol>\n<li><strong>hash-index.ps1</strong>: The final provenance establishment tool is now released. Note: This version averages ~14,000 seconds for all algorithms on large datasets.</li>\n<li><strong>python_production_doctor.py</strong>: This is a months-old version meant to demonstrate capabilities. The internal production suite remains classified as a strategic asset until the functional gap warrants broader disclosure.</li>\n</ol>\n<p><strong>Strategic Context:</strong>\nThese are tools used during my theoretical research (recursive-categorical-framework to sota-runtime-core). There is no &quot;project release&quot; here; this is a <strong>disclosure</strong> of cleared systems to break the &quot;False Scarcity of Intelligence&quot; engineered by industry leaders.</p>\n<p>With RLHF from Drop One and the new neural router + dual-method memory system, this marks the official beginning of utilizing high-level internal IP to level the playing field in favor of the OSS community and against the SaaS industry.</p>\n<p><strong>Status:</strong> Active Enforcement.</p>",
+    "publication_date": "2026-02-12",
+    "publisher": "Zenodo",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/calisweetleaf/somnus-license/tree/v2.0.0",
+        "relation_type": {
+          "id": "issupplementto",
+          "title": {
+            "de": "Erg\u00e4nzt",
+            "en": "Is supplement to"
+          }
+        },
+        "resource_type": {
+          "id": "software",
+          "title": {
+            "de": "Software",
+            "en": "Software"
+          }
+        },
+        "scheme": "url"
+      }
+    ],
+    "resource_type": {
+      "id": "software",
+      "title": {
+        "de": "Software",
+        "en": "Software"
+      }
+    },
+    "rights": [
+      {
+        "description": {
+          "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+        },
+        "icon": "cc-by-icon",
+        "id": "cc-by-4.0",
+        "props": {
+          "scheme": "spdx",
+          "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        "title": {
+          "en": "Creative Commons Attribution 4.0 International"
+        }
+      }
+    ],
+    "title": "somnus-license",
+    "version": "v2.0.0"
+  },
+  "parent": {
+    "access": {
+      "grants": [],
+      "links": [],
+      "owned_by": {
+        "user": "1457830"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {},
+    "id": "18615825",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.18615825",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.18615826",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:18615826",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 3,
+  "stats": {
+    "all_versions": {
+      "data_volume": 0.0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "unique_views": 0,
+      "views": 0
+    },
+    "this_version": {
+      "data_volume": 0.0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "unique_views": 0,
+      "views": 0
+    }
+  },
+  "status": "published",
+  "swh": {},
+  "updated": "2026-02-12T00:45:15.772609+00:00",
+  "versions": {
+    "index": 1,
+    "is_latest": true,
+    "is_latest_draft": true
+  }
+}
