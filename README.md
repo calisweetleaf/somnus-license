@@ -3,6 +3,7 @@
 [![License](https://img.shields.io/badge/License-Sovereign_Leviathan_v4.0-7000FF.svg)](./LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active_Enforcement-FF0000.svg)](./LICENSE)
 [![Tool-Suite](https://img.shields.io/badge/Tools-Defense_Grade-007ACC.svg)](./hash-index.ps1)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18615826.svg)](https://doi.org/10.5281/zenodo.18615826)
 
 > **"Open Functionality for the Individual. A Closed Fortress for the Empire."**
 
@@ -127,9 +128,21 @@ somnus-license/
 │   ├── output/                  # Final Reference Docs
 │   └── src/                     # Source sections & diagrams
 ├── hash-index.ps1               # Cryptographic Provenance Tool (62KB)
-├── python_production_doctor.py  # Code Health Scanner
+├── python_production_doctor.py  # Code Health Scanner 
 └── README.md                    # This file
 ```
+
+---
+
+
+---
+
+## Citation
+
+```mla
+Rowell, C. T. L. Somnus-license. v2.0.0, Zenodo, 12 Feb. 2026, https://doi.org/10.5281/zenodo.18615826.
+```
+
 
 ---
 
@@ -138,3 +151,13 @@ somnus-license/
 The **LICENSE** file in this repository is the Sovereign Anti-Exploitation Software License itself. The development tools (`hash-index.ps1` and `python_production_doctor.py`) are also covered under this license.
 
 **COPYRIGHT © 2026 CHRISTIAN TREY LEVI ROWELL. ALL RIGHTS RESERVED.**
+
+---
+
+## Used and Cited By
+
+[NGSST](https://github.com/calisweetleaf/NGSST)
+
+[RLHF](https://github.com/calisweetleaf/Reinforcement-Learning-Full-Pipeline)
+
+[SOTA-Runtime-Tools](https://github.com/calisweetleaf/SOTA-Runtime-Core)
