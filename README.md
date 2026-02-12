@@ -139,11 +139,10 @@ somnus-license/
 
 ## Citation
 
-```mla
-Rowell, C. T. L. Somnus-license. v2.0.0, Zenodo, 12 Feb. 2026, https://doi.org/10.5281/zenodo.18615826.
-```
 
----
+```bibtex
+@misc{https://doi.org/10.5281/zenodo.18617098,  doi = {10.5281/ZENODO.18617098},  url = {https://zenodo.org/doi/10.5281/zenodo.18617098},  author = {Rowell, Christian Trey Levi},  title = {somnus-license},  publisher = {Zenodo},  year = {2026},  copyright = {Sovereign Anti-Exploitation Software License 4.0}}
+```
 
 ---
 
